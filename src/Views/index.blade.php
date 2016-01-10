@@ -13,14 +13,14 @@
                 <legend>Calculate your BMI</legend>
                 @if(! empty($bmi))
                     <div class="alert alert-success">
-                        你的BMI为: {{ $bmi }}
+                        Your BMI is: {{ $bmi }}
                     </div>
                 @endif
                 <div class="form-group">
-                    <input type="number" class="form-control" name="w" id="" placeholder="体重" required>
+                    <input type="number" class="form-control" name="w" id="" placeholder="Weight" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" name="h" id="" placeholder="身高" required>
+                    <input type="text" class="form-control" name="h" id="" placeholder="High" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Calculate</button>
             </form>
